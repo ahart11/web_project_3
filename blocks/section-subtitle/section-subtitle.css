@@ -1,0 +1,14 @@
+@import url('./_theme/section-subtitle_theme.css');
+
+.section-subtitle {
+  font-size: 24px;
+  font-style: normal;
+  line-height: 34px;
+  text-align: center;
+  width: 60%;
+  align-self: center;
+  margin-bottom: 60px;
+  margin-top: 0
+
+}
+

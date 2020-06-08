@@ -1,0 +1,14 @@
+@import url('./_theme/section-title_theme.css');
+
+.section-title {
+  font-weight: bold;
+  line-height: 69px;
+  font-size: 60px;
+  text-align: center;
+  width: 60%;
+  align-self: center;
+  margin-bottom: 10px;
+
+  
+}
+
