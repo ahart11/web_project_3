@@ -1,0 +1,47 @@
+.cover__link {
+        display: flex;
+	flex-direction: column;
+        justify-content: center;
+        align-items: center;
+	position: relative;
+        max-width: 1184px;
+        min-height: 740px;
+        color: #FFF;
+        z-index: 0;
+        margin: 0 auto;
+        background-image: url("../../../images/route66backpng.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+	text-decoration: none;
+
+    }
+    
+    .cover__link:hover {
+        opacity: .8;
+    }
+
+    @media screen and (max-width: 320px) {
+        .cover__link {
+            max-width: 320px;
+            min-height: 200px;
+            margin: 0;
+        }
+    }
+     @media screen and (min-width: 321px) and (max-width: 768px) {
+        .cover__link {
+            max-width: 768px;
+            min-height: 480px;
+            margin: 0;
+        }
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .cover__link {
+            max-width: 1024px;
+            min-height: 640px;
+        }
+    }
+    
+   
+    
+    

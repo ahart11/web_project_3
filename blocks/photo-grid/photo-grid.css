@@ -1,0 +1,39 @@
+    @import url("./__item/photo-grid__item.css");
+    @import url("./__items/photo-grid__items.css");
+    
+.photo-grid {
+        margin: 92px 48px;
+        max-width: 1184px;
+        height: 671px;
+        
+    }
+    
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .photo-grid {
+            margin: 92px 48px;
+            height: 100%;
+            max-width: 928px;
+            
+            
+        }
+    }
+    
+    @media screen and (min-width: 321px) and (max-width: 768px) {
+        .photo-grid {
+            margin: 92px 24px 88px;
+            max-width: 720px;
+            height: 100%;
+            margin-bottom: 88px;
+        }
+    }
+    
+    @media screen and (max-width:320px) {
+        .photo-grid {
+            max-width: 288px;
+            padding: 0px 16px;
+            margin: 64px 0px;
+            height: 100%;
+        }
+    }
+
+

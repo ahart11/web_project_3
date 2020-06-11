@@ -1,2 +1,6 @@
-@import url('./_place/logo_place.css');
+.logo {
+    height: 44px;
+    max-width: 190px;
+    
+}
 

@@ -1,0 +1,32 @@
+@import url("./__list/introduction__list.css");
+@import url("./__words/introduction__words.css");
+@import url("./__subtitle/introduction__subtitle.css");
+@import url("./__title/introduction__title.css");
+
+.introduction {
+    margin-left: 148px;
+}
+
+@media screen and (max-width:320px) {
+    .introduction {
+        max-width: 288px;
+        margin-left: 16px;
+        
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .introduction {
+        margin-left: 24px;
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .introduction {
+        margin-left: 48px;
+    }
+}
+
+
+
+

@@ -1,0 +1,23 @@
+@import url("./__title/lead__title.css");
+@import url("./__subtitle/lead__subtitle.css");
+@import url("./__image/lead__image.css");
+@import url("./__words/lead__words.css");
+
+
+.lead {
+    
+	flex-direction: column;
+	display: flex;
+}
+
+@media screen and (max-width:320px) {
+    .lead {
+        max-width: 320px;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .lead {
+        max-width: 720px;
+    }
+}
+
