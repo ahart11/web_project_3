@@ -1,2 +1,31 @@
-    @import url("./__list/places__list.css");
+@import url("./place/place.css");
+.places {
+
+width: calc(100% - 148px*2);
+margin: 0;
+padding: 0;
+margin-bottom: 92px;
+box-sizing: border-box;
+
+}
+      
+      @media screen and (min-width: 769px) and (max-width: 1140px) {
+        .places__list {
+          width: calc(100% - 96px);
+        }
+      }
+      
+      @media screen and (min-width: 321px) and (max-width: 768px) {
+        .places__list {
+          width: calc(100% - 48px);
+        }
+      }
+      
+      @media screen and (max-width: 320px) {
+        .places__list {
+          width: 100%;
+          margin-bottom: 64px;
+        }
+      }
+
   

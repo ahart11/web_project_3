@@ -1,0 +1,19 @@
+.place__website {
+    grid-area: url;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+    .place__website {
+      display: none;
+    }
+  }
+
+
+
+
+
+
